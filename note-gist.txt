@@ -1,0 +1,16 @@
+#Tugas 1
+
+Merubah halaman login laravel dengan template AdminLte dan halaman login tetap berfungsi
+Seperti vidio di bawah
+
+https://www.useloom.com/share/7e3a3ed040c84a42a9f6ad4b7bfaa0ad
+
+#Tugas 2
+
+Buatlah CRUD table Employee (karyawan) dengan susunan migration, model, factory seperti
+link di bawah.
+
+Tugas dikumpulkan sampai batas waktu 5 hari dihitung mulai dari pembagian tugas, yakni tangal 27-03-2019
+tugas dikumpulkan dalam bentuk screenshot.
+
+https://gist.github.com/ahmadshobirin/49ae2fec45353cc93d1bc535b78e7ccc
