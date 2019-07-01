@@ -16,16 +16,14 @@ class ProductResource extends JsonResource
     public function toArray($request)
     {
         // return parent::toArray($request);
-        return [
+
+        return[
             'id' => $this->id,
             'product' => ucfirst($this->product),
             'price' => (int) $this->price,
             'stock' => (int) $this->stock,
             'description' => $this->description,
-            'image' => $this->whenLoaded(
-                    'latestImage',
-                    asset('uploads/'.$this->latestImage->first()->image)
-                ),
+            'image' =>($this->image == null) ? null :  url('uploads/'.$this->image),
             'images' => ImagesResource::collection($this->whenLoaded('imageRelation'))
         ];
     }

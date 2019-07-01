@@ -153,6 +153,8 @@ class TransactionApiController extends Controller
 
     public function upload(Request $request, $code)
     {
+        //return $request->all();
+
         $tr = Transaction::where('transaction_code',$code)->first();
 
         if( $tr == null ){
